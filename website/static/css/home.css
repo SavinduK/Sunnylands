@@ -1,0 +1,61 @@
+.body {
+    /*background-image: url("/static/assets/back.png");*/
+    background: url("/static/assets/titleScreen.png");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    font-family: "Halvetica";
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+    margin-top: 250px;
+}
+
+.b1 {
+    margin-left: 200px;
+}
+
+.b2 {
+    margin-left: 350px;
+    width: 125px;
+}
+
+.b3 {
+    margin-left: 525px;
+}
+
+.b4 {
+    margin-left: 675px;
+}
+
+.h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: fantasy;
+    margin-left: -50px;
+}
+
+.h4 {
+    font-size: 30px;
+    font-family: fantasy;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.text {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 50px;
+}

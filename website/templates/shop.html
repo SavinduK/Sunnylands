@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href={{ url_for( 'static',filename='css/shop.css' ) }}>
+    <title>Shop</title>
+</head>
+
+<body class="body">
+
+
+    <h1 class="h1"><u>Shop</u></h1>
+
+
+    <div class="div1" align="center"></div>
+    <img src="/static/assets/player-hurt-2.png" class="img1">
+    <p class="p1" id="p1"></p>
+    <img src="/static/assets/cherry-2.png" class="img2">
+    <p class="p2" id="p2"></p>
+    <img src="/static/assets/cherry-2.png" class="img3">
+    <p class="p3" id="p3"></p>
+    <button id="btn" class="btn1" onclick="buy()">Upgrade</button>
+
+    <script src={{ url_for( 'static',filename='javascript/home.js' ) }}></script>
+    <script src={{ url_for( 'static',filename='javascript/shop.js' ) }}></script>
+
+</body>
+
+</html>

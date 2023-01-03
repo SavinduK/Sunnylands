@@ -1,0 +1,27 @@
+<!Doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href={{ url_for( 'static',filename='css/home.css' ) }}>
+    <title>Home</title>
+</head>
+
+<body class="body">
+
+    <div class="text">
+        <h1 class="h1">Sunny Lands</h1>
+        <h4 class="h4">by AzraelTech</h4>
+    </div>
+
+
+    <a href="/play"><button class="btn b1">Play</button></a>
+    <a href="/help"><button class="btn b3">Help</button></a>
+    <a href="/shop"><button class="btn b4">Shop</button></a>
+    <a href="/speedrun"><button class="btn b2">SpeedRun</button></a>
+
+
+    <script src={{ url_for( 'static',filename='javascript/home.js' ) }}></script>
+
+</body>
+
+</html>
